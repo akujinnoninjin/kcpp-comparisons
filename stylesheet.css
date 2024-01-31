@@ -1,3 +1,8 @@
+body {
+  background-color: #000000;
+  color: #E6E6E6;
+}
+
 table.darkTable {
   border: 2px solid #000000;
   background-color: #4A4A4A;
