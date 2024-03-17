@@ -1,0 +1,10 @@
+ 
+---
+- name: "Norm"
+- description: "Norm test"
+- prompt: "norm prompt text goes here"
+ 
+---
+- name: "phil"
+- description: "phil test"
+- prompt: "Phil prompt text goes here"
