@@ -34,13 +34,13 @@ class SamplerSettings(BaseModel):
         return rep_pen_range
 
 #class RunConfig():
-seeds = [8675309, 12345678] #, 314159265, 181811]
+seeds = [8675309, 12345678] #, 314159265, 27182818, 14233221, 66260701, 80087355, 6942069, 70707734, 13371337]
 
 #If URL specified, assume only using hosted model
 api_url = "http://10.10.100.112:5001/api/v1/" #127.0.0.1:5001" #TODO: Read from command line args
 
 # Assume input prompt file is in same folder, prompts.yaml
-prompts_path = ".\prompts"
+prompts_path = ".\\prompts"
 
 #If path is specified, assume loading model
 #kcpp_path = "./koboldcpp-main/koboldcpp/koboldcpp.py"
