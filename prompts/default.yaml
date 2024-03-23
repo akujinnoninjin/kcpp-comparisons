@@ -1,0 +1,27 @@
+---
+group_name: "Defaults"
+group_description: "Default testing prompts"
+group_memory: "shared-sysprompt-for-group'
+prompts:
+    - name: "Norman"
+      description: "this is a prompt description"
+      text: "this is the prompt text"
+ #     sampler_settings:
+ #          temperature: 123
+ #          smoothing: 0.15
+ #          max_length: 1000
+ #          memory: "sysprompt goes here, overrides group"
+
+    - name: "Phil"
+      description: "this describes prompt 2"
+      text: "this is prompt 2's text"
+
+    - name: "Conversation"
+      description: "This is a conversation prompt"
+      text: "Initialprompt"
+      conversation:
+        exchanges: 4
+        other_thing: 1
+      sampler_settings:
+        max_length: 120
+      
